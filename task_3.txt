@@ -1,0 +1,10 @@
+#Изменить права доступа к файлу
+
+[cloudera@quickstart ~]$ hadoop fs -chmod 755 voina_i_mir.har
+[cloudera@quickstart ~]$ hadoop fs -ls
+Found 5 items
+drwxr-xr-x   - cloudera cloudera          0 2022-11-13 02:27 voina_i_mir.har
+-rw-r--r--   1 cloudera cloudera     736519 2022-11-13 01:46 voyna-i-mir-tom-1.txt
+-rw-r--r--   1 cloudera cloudera     770324 2022-11-13 01:46 voyna-i-mir-tom-2.txt
+-rw-r--r--   1 cloudera cloudera     843205 2022-11-13 01:46 voyna-i-mir-tom-3.txt
+-rw-r--r--   1 cloudera cloudera     697960 2022-11-13 01:46 voyna-i-mir-tom-4.txt

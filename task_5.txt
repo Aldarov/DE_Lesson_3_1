@@ -1,0 +1,9 @@
+#Изменит фактор репликации на 2
+
+[cloudera@quickstart ~]$ hadoop fs -setrep 2 voina_i_mir.har
+Replication 2 set: voina_i_mir.har/_SUCCESS
+Replication 2 set: voina_i_mir.har/_index
+Replication 2 set: voina_i_mir.har/_masterindex
+Replication 2 set: voina_i_mir.har/part-0
+[cloudera@quickstart ~]$ hadoop fs -du -s -h voina_i_mir.har
+2.9 M  5.8 M  voina_i_mir.har

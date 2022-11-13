@@ -1,0 +1,4 @@
+Фактический размер файла, а второе значение – это занимаемое файлом место на диске с учетом репликации.
+
+[cloudera@quickstart ~]$ hadoop fs -du -s -h voina_i_mir.har
+2.9 M  8.7 M  voina_i_mir.har

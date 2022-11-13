@@ -1,0 +1,4 @@
+#Подсчитывает количество строк в текстовом файле
+
+[cloudera@quickstart ~]$ hadoop fs -cat voyna-i-mir-tom-1.txt | wc -l
+3392
